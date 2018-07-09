@@ -7,4 +7,11 @@ class TestPairs < Minitest::Test
 		assert_equal(Array, pair().class)
 	end
 
+	def test_if_1st_pos_eqauls_jake
+		assert_equal("Jake", pair()[0])
+	end
+
+	def test_if_2nd_pos_equals_josh
+		assert_equal("josh", pair()[1])
+	end
 end
