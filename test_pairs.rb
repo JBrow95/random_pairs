@@ -20,6 +20,10 @@ class TestPairs < Minitest::Test
 	end
 
 	def test_if_4th_pos_equals_john
-		assert_equal("John", pair()[3])
+		assert_equal("John", pair[3])
+	end
+
+	def test_if_2_rand_indexes_shove_into_new_array
+		assert_equal(2, f_pair(pair))
 	end
 end
