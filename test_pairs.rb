@@ -12,6 +12,6 @@ class TestPairs < Minitest::Test
 	end
 
 	def test_if_2nd_pos_equals_josh
-		assert_equal("josh", pair()[1])
+		assert_equal("Josh", pair()[1])
 	end
 end
